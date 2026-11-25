@@ -5,5 +5,5 @@ resources:
   - service.yaml
 images:
   - name: docker.io/mohankrishna999/grafana
-    newTag: 13.3.0-patched
+    newTag: 13.3.0.2-patched
 

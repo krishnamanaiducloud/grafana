@@ -1,6 +1,6 @@
 .PHONY: build smoke scan builder push all
 IMAGENAME=mohankrishna999/grafana
-VERSION=13.3.0-patched
+VERSION=13.3.0.2-patched
 BUILDER=patched-multiarch
 build:
 	IMAGE=${IMAGENAME}:${VERSION} sh build/build.sh
